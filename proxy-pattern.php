@@ -41,8 +41,8 @@ class ProxyFile implements FileInterface {
 
 $file = new ProxyFile('test.txt');
 echo "Proxy Created\n";
-$file->display();
-$file->display();
+$file->display(); // RealFile gets loaded and displayed
+$file->display(); // Just displays, no reload
 
 // API Proxy
 interface WeatherService {

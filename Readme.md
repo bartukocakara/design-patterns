@@ -64,6 +64,6 @@ Each pattern is demonstrated with **multiple use cases**, comments, and practica
 ## 🛠️ How to Run
 
 ```bash
-php Adapter/StripeExample.php
-php Bridge/NotificationExample.php
-php Proxy/FileProxyExample.php
+php adapter-pattern.php
+php bridge-pattern.php
+php proxy-pattern.php
